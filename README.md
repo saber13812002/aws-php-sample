@@ -22,7 +22,7 @@ google how to install composer in windows
 
 ## Create Storage Server with Liara.ir CDN Services
 
-goto liara.ir
+goto https://liara.ir
 
 create and account
 
