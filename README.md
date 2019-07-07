@@ -24,9 +24,9 @@ google how to install composer in windows
 
 goto https://liara.ir
 
-create and account
+create an account
 
-enable your cdn service 
+enable your cdn service :
 
 - copy endpoint 
 - copy key 
