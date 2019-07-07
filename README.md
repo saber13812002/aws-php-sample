@@ -58,6 +58,8 @@ run sample every where you want
 
 you can see your image as binary.... ;)
 
+you can see your downloaded picture beside your sample.php file
+
 ## License
 
 This sample application is distributed under the
