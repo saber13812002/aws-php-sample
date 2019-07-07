@@ -2,6 +2,9 @@
 
 A simple PHP application illustrating usage of the AWS SDK for PHP.
 
+آموزش فارسی کار با سرویس های فایل آمازون و سرویس های ابری
+this is persian version of this article : http://vrgl.ir/aQirV
+
 ## Source
 
 https://docs.min.io/docs/how-to-use-aws-sdk-for-php-with-minio-server.html
