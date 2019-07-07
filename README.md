@@ -1,6 +1,11 @@
-# AWS SDK for PHP Sample Project
+# AWS SDK for PHP Sample Project for Liara
 
 A simple PHP application illustrating usage of the AWS SDK for PHP.
+
+## Source
+
+https://docs.min.io/docs/how-to-use-aws-sdk-for-php-with-minio-server.html
+
 
 ## Requirements
 
@@ -10,34 +15,48 @@ install Composer and the SDK, run:
     curl -sS https://getcomposer.org/installer | php
     php composer.phar install
 
+If you have windows
+
+google how to install composer in windows
+
+
+## Create Storage Server with Liara.ir CDN Services
+
+goto liara.ir
+
+create and account
+
+enable your cdn service 
+
+- copy endpoint 
+- copy key 
+- copy secret in the txt file 
+
+
+Create bucket named : for example saber
+
+upload file for example aa111.jpg and aa22.jpg
+
+edit policy from left panel by click on ... on your bucket (saber)
+
+prefix : aa 
+permission read and write
+
+
 ## Basic Configuration
 
 You need to set up your AWS security credentials before the sample code is able
-to connect to AWS. You can do this by creating a file named "credentials" at ~/.aws/ 
-(C:\Users\USER_NAME\\.aws\ for Windows users) and saving the following lines in the file:
+to connect to AWS. 
 
-    [default]
-    aws_access_key_id = <your access key id>
-    aws_secret_access_key = <your secret key>
+open sample.php 
 
-See the [Security Credentials](http://aws.amazon.com/security-credentials) page
-for more information on getting your keys. You can also set your credentials in
-a couple of other ways. See the [AWS SDK for PHP documentation](http://docs.aws.amazon.com/aws-sdk-php/v3/guide/guide/credentials.html)
-for more information.
+replace variables in file
 
 ## Running the S3 sample
 
-If you are using IAM security credentials, the user account must have the Full S3 Access policy attached.
+run sample every where you want
 
-This sample application connects to Amazon's [Simple Storage Service (S3)](http://aws.amazon.com/s3),
-creates a bucket, and uploads a file to that bucket. The sample code will
-generate a bucket name and a file for you, so all you need to do is run the
-code:
-
-    php sample.php
-
-The S3 documentation has a good overview of the [restrictions for bucket names](http://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)
-for when you start making your own buckets.
+you can see your image as binary.... ;)
 
 ## License
 
